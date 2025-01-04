@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+        }
+
+        .loading-container {
+            text-align: center;
+        }
+
+        .loading-container p {
+            margin-bottom: 20px;
+        }
+
+        .loader {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #007bff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="loading-container">
+        <p>Loading, please wait...</p>
+        <div class="loader"></div>
+    </div>
+
+    <script>
+        // Redirect to index.html after 3 seconds
+        setTimeout(function() {
+            window.location.href = 'main.html';
+        }, 3000); // 3000ms = 3 seconds
+    </script>
+
+</body>
+</html>
