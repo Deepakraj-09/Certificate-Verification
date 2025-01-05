@@ -221,7 +221,7 @@ a img.sic-logo {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 9px;
+    gap: 11px;
     padding: 1px 10px;
     font-size: 0.8em;
 }
@@ -229,7 +229,7 @@ a img.sic-logo {
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 4px;
     font-size: 1em;
     color: inherit;
 }
