@@ -33,7 +33,7 @@ const participants = {
     "2203a51004":"Bethi Abhinav",
     "2203a51021":"Sathwik Mudragada",
     "2203A51621":"Thadem Eshwar",
-    "2203A51499":"N.Sai Sathwik",
+    "2203A51499":"Nettem Sai Sathwik",
     "2203A51185":"PALLA AKSHITH REDDY",
     "2203A51179":"Kusam Deepakraj",
     "2205A41149":"Poshala Akshitha",
