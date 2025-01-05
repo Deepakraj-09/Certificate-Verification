@@ -3,7 +3,7 @@ const commonDetails = {
     event: "Step Into Innovation",
     eventDates: "07/11/2024-08/11/2024",
     authorizedBy: "Dr. Sheshikala Marth & Dr. Indrajeet Gupta",
-    issuedDate: "08-01-2025"
+    issuedDate: "05-01-2025"
 };
 const participants = {
     "2303A51591":"BOGELLI ROHITH",
@@ -59,10 +59,7 @@ const participants = {
     "2403A51409":"Patwari poornachander rao",
     "2303A51243":"Karnati Pallavi",
     "2303A51234":"Cheti Akhila",
-    "2403a52089":"N.Ashwitha Reddy",
     "2403A58017":"KRUTHIK REDDY YERUVA",
-    "2403a52090":"G SAI MANOJ GOUD",
-    "2403a52091":"Rontala Subhashan Reddy",
     "2203a54036":"Preethika mandal",
     "2203A54049":"AkshayKumar Ravulakari",
     "2203A54047":"R.Navaneeth"
