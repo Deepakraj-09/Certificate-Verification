@@ -1,8 +1,9 @@
 const commonDetails = {
     issuedBy: "Startup and Innovation Club",
     event: "Step Into Innovation",
+    eventDates: "07/11/2024-08/11/2024",
     authorizedBy: "Dr. Sheshikala Marth & Dr. Indrajeet Gupta",
-    issuedDate: "2024-10-15"
+    issuedDate: "08-01-2025"
 };
 const participants = {
     "2303A51591":"BOGELLI ROHITH",
@@ -22,8 +23,8 @@ const participants = {
     "2403A52394":"Puli Ala",
     "2403A51392":"KOOJA SAI SHIVANI",
     "2403A54126":"Banda Akshitha",
-    "2403A51457":"Kondroju.Shiva Sai Kumar",
-    "2403A51445":"Mudderaboina.Vijaykumar ",
+    "2403A51457":"Kondroju Shiva Sai Kumar",
+    "2403A51445":"Mudderaboina Vijaykumar ",
     "2403A54122":"Uggi.Siddhartha",
     "2203A51077":"ANJALI GARREPALLI",
     "2203A51459":"SPANDANA AKKALA",
@@ -54,14 +55,14 @@ const participants = {
     "2403a52392":"Sai Charan tej",
     "2403A52367":"Nithish chandra chandanala",
     "2403A51358":"Krishna Chaitanya",
-    "2403A52144":"Pridhvichallagurugula",
+    "2403A52144":"Pridhvi Challagurugula",
     "2403A51409":"Patwari poornachander rao",
     "2303A51243":"Karnati Pallavi",
     "2303A51234":"Cheti Akhila",
     "2403a52089":"N.Ashwitha Reddy",
     "2403A58017":"KRUTHIK REDDY YERUVA",
     "2403a52090":"G SAI MANOJ GOUD",
-    "2403a52091":"Rontala.Subhashan Reddy",
+    "2403a52091":"Rontala Subhashan Reddy",
     "2203a54036":"Preethika mandal",
     "2203A54049":"AkshayKumar Ravulakari",
     "2203A54047":"R.Navaneeth"
@@ -117,6 +118,7 @@ function displayDetails(certificateID, holderName) {
         { label: "Holder Name", value: holderName },
         { label: "Issued By", value: commonDetails.issuedBy },
         { label: "Event Name", value: commonDetails.event },
+        { label: "Event Dates", value: commonDetails.eventDates },
         { label: "Authorized By", value: commonDetails.authorizedBy },
         { label: "Issued Date", value: commonDetails.issuedDate }
     ];
