@@ -61,7 +61,10 @@ const participants = {
     "2403A51409":"Patwari poornachander rao",
     "2303A51243":"Karnati Pallavi",
     "2303A51234":"Cheti Akhila",
+    "2303A52089":"N.Ashwitha Reddy",
     "2403A58017":"KRUTHIK REDDY YERUVA",
+    "2403A58035":"G SAI MANOJ GOUD",
+    "2403A58012":"Rontala.Subhashan Reddy",
     "2203a54036":"Preethika mandal",
     "2203A54049":"AkshayKumar Ravulakari",
     "2203A54047":"R.Navaneeth"
