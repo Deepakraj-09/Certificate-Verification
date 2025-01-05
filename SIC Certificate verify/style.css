@@ -160,6 +160,7 @@ a img.sic-logo {
     color: #333;
     padding: 5px 0;
     margin: 0; 
+    margin-top:0px;
 }
 /*.popup {
     position: fixed;
@@ -214,4 +215,36 @@ a img.sic-logo {
     margin-top: 20px;
     border: 2px solid #4CAF50;
     background-color: #f4f4f4;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 11px;
+    padding: 1px 10px;
+    font-size: 0.8em;
+}
+.social-icons a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1em;
+    color: inherit;
+}
+.social-icons .bi-whatsapp {
+    color: green;
+}
+.social-icons .bi-instagram {
+    color: red;
+}
+.social-icons .bi-twitter { 
+    color: blue;
+}
+.social-icons .bi-envelope {
+    color: orange;
+}
+.social-icons .bi-linkedin {
+    color: #0077b5;
 }
